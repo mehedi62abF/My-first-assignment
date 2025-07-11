@@ -18,7 +18,7 @@
         color: #4E47FF;
        }
        .secondary-color{
-        color: #252432;
+        color: #555;
        }
        .primary-btn{
         background-color:#4E47FF ;
@@ -126,6 +126,57 @@
             font-size: 20px;
             color: #252432;
         }
+             
+          /* Feedback Section Styles */
+
+        .Feedback-Section{
+            border: 1px solid red;
+            margin: 116px 141px 116px 200px;
+
+        }  
+        .feedback-tittle{
+            font-size: 42px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .star{
+            color: gold;
+            margin-bottom: 24px;
+        }
+        .review-tittle{
+            margin-bottom: 8px;
+            
+        }
+        .review-card{
+            background-color: aqua;
+        }
+        .review-description{
+            color: #555;
+        }
+        .reviewer-info .date{
+            color: #999;
+        }
+        .reviewer-img{
+            border-radius: 50px;
+        }
+
+         
+
+        
+        .review-container{
+            display: flex;
+            margin-top: 50px;
+            gap: 20px;
+            
+        }
+        .reviewer{
+            display: flex;
+            margin-top: 24px;
+            padding: 10px;
+            
+        }
+
+        
 
     
 
