@@ -56,6 +56,77 @@
         padding: 50px 0px;
 
      }
+     
+         /* Banner Style  */
+     .banner-heading{
+        font-size: 65px;
+        font-weight: bold;
+        margin-bottom: 37px;
+
+     }
+     .banner-content{
+        max-width: 905px;
+        height: 237px;
+        text-align: center;
+        margin: 100px auto;
+     }
+
+         /* main styles */
+         
+
+      /* Action Section styles    */
+
+      .Action-Section{
+        display: flex;
+        justify-content: space-between;
+        margin: 116px 141px 116px 200px;
+        border: 1px solid rebeccapurple;
+        
+        align-items: center;
+      }
+      .action-content{
+        width: 45.35%;
+
+      }
+      .action-img{
+        width: 35.35%;
+        border-radius: 48px;
+      }
+      .action-description{
+        font-size: 20px;
+        margin: 23px 0px;
+        }
+
+             /* usre styles */
+
+        .user-section{
+            border: 1px solid red;
+            margin: 116px 141px 116px 200px;
+            padding: 50px 142px;
+            background-color: #F5F8FF;
+
+            
+        }
+        .user-tittle{
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .user-data-section{
+            display: flex;
+            justify-content: space-between;
+        }
+        .tittle{
+            font-size: 80px;
+            font-weight: bold;
+            color: #4E47FF;
+        }
+        .description{
+            font-size: 20px;
+            color: #252432;
+        }
+
     
 
       
