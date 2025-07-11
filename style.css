@@ -1,0 +1,44 @@
+
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+       /* shared styles */
+
+       .primary-color{
+        color: #4E47FF;
+       }
+       
+      
+    /* Navigation style */
+    .logo{
+        font-size: 34px;
+        font-weight: 900;
+        }
+    .sign-up-button{
+        background-color:#4E47FF ;
+        color: white;
+        padding: 12px 36px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        
+    }   
+    nav{
+        display: flex;
+        max-width: 1140px;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+
+    } 
