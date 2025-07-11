@@ -6,12 +6,12 @@
    font-style: normal;
   font-variation-settings:
     "wdth" 100;
+} 
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-/* *{ */
-   margin: 0px;
-   padding: 0px;
-}
        /* shared styles */
 
        .primary-color{
@@ -38,93 +38,24 @@
        /* header-style */
        header{
         background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
-        /* max-width: 1440px;
-        max-height: 698px; */
-        height: 698px;
+         height: 698px;}
+
+         
         
         
-       }
-       
-      
-    /* Navigation style */
-    .logo{
+      /* nav style    */
+      .logo{
         font-size: 34px;
         font-weight: 900;
-        color: #4E47FF;
-        }
-      
-    nav{
+      }
+     nav{
         display: flex;
-        max-width: 1140px;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: 0 150px;
         align-items: center;
+        padding: 50px 0px;
 
-    } 
-          /* Banner-style */
-      
-    .banner-heading{
-        font-size: 65px;
-        font-weight: bold;
-    }   
-    .banner-content{
-        max-width: 905px;
-        margin:0 auto;
-        text-align: center;
-        
-
-    } 
-       /* main-style */
-    main{
-        margin: 0 150px 0 150px;
-    }
+     }
     
-         /* Action style */
 
-    .action-description{
-        font-size: 24px;
-        color:#252432;
-    } 
-    .action-img{
-        max-width: 403px;
-        max-height: 328px;
-        border-radius: 48px;
-    }   
-    .Action-Section{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 116px;
-    } 
-
-        /* User-section-style */
-
-     .user-tittle{
-        font-size: 38px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 10px;
-     }   
-
-     .tittle{
-        font-size: 80px;
-        font-weight: bold;
-        color: #4E47FF;
-        margin-top: 0;
-        margin-bottom: 0px;
-     }
-     .description{
-        font-size: 20px;
-        color: #252432;
-     }
-     .user-data-section{
-        display: flex;
-        justify-content: space-around;
-        
-     }
-     .user-section{
-        background-color: #E5E7FF;
-        border-radius: 10px;
-        height: 306px;
-        padding: 50px 142px;
-        margin-top: 116px;
-     }
+      
